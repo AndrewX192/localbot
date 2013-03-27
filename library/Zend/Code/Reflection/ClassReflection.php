@@ -29,7 +29,7 @@ use Zend\Code\Reflection,
     Zend\Code\Scanner\FileScanner,
     Zend\Code\Annotation,
     Zend\Code\Scanner\AnnotationScanner,
-    TechCaster\Code\Reflection\MethodReflection;
+    LocalCoast\Code\Reflection\MethodReflection;
 
 /**
  * @uses       ReflectionClass

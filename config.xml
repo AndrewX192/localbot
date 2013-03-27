@@ -8,7 +8,7 @@
             <!--==========================================================================
             Example Network
             ===========================================================================-->
-            <techcaster>
+            <example>
                 <name>Example</name>
                 <servers>
                     <server>
@@ -19,7 +19,7 @@
                 <nick>LocalBot</nick>
                 <ident>localbot</ident>
                 <realName>LocalBot IRC Bot</realName>
-            </techcaster>
+            </example>
         </networks>
 
         <plugins>
