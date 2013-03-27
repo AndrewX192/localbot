@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    The LocalBot Configuration File.
+-->
+<localbot>
+    <config>
+        <networks>
+            <!--==========================================================================
+            Example Network
+            ===========================================================================-->
+            <techcaster>
+                <name>Example</name>
+                <servers>
+                    <server>
+                        <hostname>example.com</hostname>
+                        <ssl>true</ssl>
+                    </server>
+                </servers>
+                <nick>LocalBot</nick>
+                <ident>localbot</ident>
+                <realName>LocalBot IRC Bot</realName>
+            </techcaster>
+        </networks>
+
+        <plugins>
+
+        </plugins>
+    </config>
+</localbot>
