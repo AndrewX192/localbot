@@ -1,16 +1,51 @@
 <?php
+/**
+ * LocalCoast LocalBot
+ *
+ * @category    LocalCoast
+ * @package     LocalCoast
+ * @author      Andrew Sorensen <andrew@localcoast.net>
+ * @license
+ */
 
 namespace LocalCoast\LocalBot;
 
-
+/**
+ * LocalCoast LocalBot Command
+ *
+ * @category    LocalCoast
+ * @package     LocalCoast
+ * @author      Andrew Sorensen <andrew@localcoast.net>
+ * @license
+ */
 abstract class Command
 {
+    /**
+     * The target of the command
+     *
+     * @var string
+     */
     protected $_target;
 
+    /**
+     * The targets of the command
+     *
+     * @var string
+     */
     protected $_targets;
 
+    /**
+     * The command message
+     * 
+     * @var string
+     */
     protected $_message;
 
+    /**
+     * The command argument
+     *
+     * @var string
+     */
     protected $_argument;
 
     /**
